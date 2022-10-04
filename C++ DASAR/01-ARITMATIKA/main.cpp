@@ -2,8 +2,12 @@
 using namespace std;
 
 int main(){
-  int a = 2;
-  int b = 3;
+  int a, b;
+  cout << "Masukan Angka Pertama : ";
+  cin >> a;
+  cout << "Masukan Angka Kedua : ";
+  cin >> b;
+
   int hasil = a + b;
-  cout << hasil;
+  cout << "Hasil Dari Penjumlahan = " << hasil;
 }

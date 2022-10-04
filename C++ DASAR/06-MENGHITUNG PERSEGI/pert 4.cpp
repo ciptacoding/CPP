@@ -2,17 +2,19 @@
 using namespace std;
 
 int main (){
-	int N;
+	do{
+		int N;
 	cout << " masukkan nilai : ";
 	cin >> N;
 	
 	if(N%2==0) {
 		
 		cout << "nilai genap" << endl;
+		cout << "\n";
 	}
 	else {
 		cout << "nilai ganjil ";
+		cout << "\n";
 	}
-	
-	return 0;
+	} while (true);
 }
